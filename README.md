@@ -203,6 +203,8 @@ public final class MySlide extends Fragment implements ISlideBackgroundColorHold
 }
 ```
 
+And enable color transition by calling `setColorTransitionsEnabled(true)` alongside `addSlide()`s in your activity.
+
 The API is quite low-level, therefore highly customizable. The interface contains two methods:
 
 - `getDefaultBackgroundColor`: Return the default background color (i.e. the background color the slide has in non-sliding state) of the slide here.
